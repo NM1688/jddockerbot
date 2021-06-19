@@ -35,6 +35,6 @@ jobs:
         with:
           src: github/NM1688
           dst: gitee/NM1688
-          static_list: "jddockerbot"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
+          static_list: "jddockerbot"
