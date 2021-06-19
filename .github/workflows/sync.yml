@@ -32,7 +32,6 @@ jobs:
       # 我自己同步到gitee使用，其他人可忽略
       - name: sync github -> gitee
         uses: Yikun/hub-mirror-action@master
-        if: env.dst_key
         with:
           src: github/NM1688
           dst: gitee/NM1688
